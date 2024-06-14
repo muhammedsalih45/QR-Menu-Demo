@@ -95,3 +95,7 @@
             min-height: 150px;
             background-color: gray;
         }
+
+        .content-paragraph{
+            text-align: center;
+        }
