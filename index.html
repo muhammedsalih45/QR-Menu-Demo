@@ -7,6 +7,105 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+                body {
+            box-sizing: border-box;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (min-width: 1200px) {
+            body {
+                font-size: 18px;
+            }
+        }
+
+        .mainContainer {
+            width: 100%;
+            height: 100%;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        .navbar .head {
+            
+            text-align: center;
+        }
+
+        .navbar .arrow {
+            font-size: 24px;
+            cursor: pointer;
+            
+        }
+
+        .content {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card {
+            width: 90%;
+            height: 130px;
+            background-color: #f2f2f2;
+            position: relative;
+            border-radius: 10px;
+            text-align: center;
+            margin: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .cardImg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+
+        }
+
+        .card:hover img {
+            transform: scale(1.2);
+        }
+
+        .card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 40px;
+            color: #fff;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .menuBtn {
+            border-radius: 30px;
+            border: none;
+            background-color: gray;
+            color: white;
+            margin-right: 0;
+        }
+
+        .contentImg{
+            width: 100%;
+            min-height: 150px;
+            background-color: gray;
+        }
+    </style>
 </head>
 
 <body>
