@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Ana Sayfa</title>
     <style>
                 body {
             box-sizing: border-box;
@@ -26,26 +26,27 @@
         .mainContainer {
             width: 100%;
             height: 100%;
-        }
-
-        .navbar {
-            width: 100%;
-            height: 5%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        }
-
-        .navbar .head {
             
+        }
+
+        .mainNavbar {
             text-align: center;
+        }
+
+        .head {
+            
+            max-width: 1000px;
+            margin: 0;
         }
 
         .navbar .arrow {
             font-size: 24px;
             cursor: pointer;
             
+        }
+
+        .navbar{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
         }
 
         .content {
@@ -105,15 +106,17 @@
             min-height: 150px;
             background-color: gray;
         }
+
+        .content-paragraph{
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
     <div class="mainContainer">
-        <div class="navbar">
-            <i class="fa fa-arrow-left arrow"></i>
+        <div class="mainNavbar">
             <h3 class="head">Demo Menü</h3>
-            <div class="arrow-placeholder"></div>
         </div>
 
         <div class="content">
@@ -128,7 +131,7 @@
             </div>
             <!-- Card2 -->
             <div class="card">
-                <a href="">
+                <a href="izgara.html">
                     <img class="cardImg"
                         src="https://kewpie.co.id/media/image/thumbs/post/2018/12/20/6-barbeque-party_webs2-1360-480_thumb.JPG"
                         alt="Izgara">

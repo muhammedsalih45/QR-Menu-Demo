@@ -26,26 +26,27 @@
         .mainContainer {
             width: 100%;
             height: 100%;
-        }
-
-        .navbar {
-            width: 100%;
-            height: 5%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        }
-
-        .navbar .head {
             
+        }
+
+        .mainNavbar {
             text-align: center;
+        }
+
+        .head {
+            
+            max-width: 1000px;
+            margin: 0;
         }
 
         .navbar .arrow {
             font-size: 24px;
             cursor: pointer;
             
+        }
+
+        .navbar{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
         }
 
         .content {
@@ -105,6 +106,7 @@
             min-height: 150px;
             background-color: gray;
         }
+
         .content-paragraph{
             text-align: center;
         }
@@ -114,8 +116,8 @@
 <body>
 
     <div class="mainContainer">
-        <div class="navbar">
-            <i class="fa fa-arrow-left arrow"></i>
+        <div class="manuNavbar">
+            <i class="fa fa-arrow-left" id="arrow"></i>
             <h3 class="head">Kahvaltı Menüsü</h3>
             <div class="arrow-placeholder"></div>
 
@@ -128,7 +130,7 @@
                 <div class="content-paragraph">
                     <h4 class="contentHead">Menemen</h4>
                     <p class="text-uppercase"><b>İçindekiler: </b> Çırpılmış yumurta domates biber ile</p>
-                    <p class="text-capitalize">₺ 400.00</p>
+                    <p class="text-capitalize">₺400.00</p>
                 </div>
             </div>
             <hr>
@@ -139,7 +141,7 @@
                 <div class="content-paragraph">
                     <h4 class="contentHead">Sade Omlet</h4>
                     <p class="text-uppercase"><b>İçindekiler: </b> Sahanda Çırpılmış iki adet yumurta</p>
-                    <p class="text-capitalize">₺ 400.00</p>
+                    <p class="text-capitalize">₺400.00</p>
                 </div>
             </div>
             <hr>
@@ -148,9 +150,9 @@
                 <img src="" " class="
                     contentImg rounded float-start" alt="kahvaltı">
                 <div class="content-paragraph">
-                    <h4 class="contentHead">Sade Omlet</h4>
-                    <p class="text-uppercase"><b>İçindekiler: </b> Sahanda Çırpılmış iki adet yumurta</p>
-                    <p class="text-capitalize">₺ 400.00</p>
+                    <h4 class="contentHead">Sucuklu Yumurta</h4>
+                    <p class="text-uppercase"><b>İçindekiler: </b> Sahanda kangal sucukla pişirilmiş yumurta</p>
+                    <p class="text-capitalize">₺400.00</p>
                 </div>
             </div>
         </div>
